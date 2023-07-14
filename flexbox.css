@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid saddlebrown;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px dashed blue;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.login-containter{
+    display: flex;
+    justify-content: center;
+    border: 1px solid salmon;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 50%;
+}
+.login-form input{
+    margin-top: 20px;
+}

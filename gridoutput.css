@@ -1,0 +1,25 @@
+.calander{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date, .day{
+    background-color: aqua;
+    border-radius: 15px 10px 15px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.day{
+    background-color: rgba(0, 0, 255, 0.233);
+    font-size: 1em;
+
+}
+.text-1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+}
